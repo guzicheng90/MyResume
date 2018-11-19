@@ -1,0 +1,5 @@
+C:\003HtmlProject\MyResume\MyResumeVsH5\MyResumeVsH5\MyResumeVsH5\bin\MyResumeVsH5.dll
+C:\003HtmlProject\MyResume\MyResumeVsH5\MyResumeVsH5\MyResumeVsH5\bin\MyResumeVsH5.pdb
+C:\003HtmlProject\MyResume\MyResumeVsH5\MyResumeVsH5\MyResumeVsH5\obj\Debug\MyResumeVsH5.csprojResolveAssemblyReference.cache
+C:\003HtmlProject\MyResume\MyResumeVsH5\MyResumeVsH5\MyResumeVsH5\obj\Debug\MyResumeVsH5.dll
+C:\003HtmlProject\MyResume\MyResumeVsH5\MyResumeVsH5\MyResumeVsH5\obj\Debug\MyResumeVsH5.pdb

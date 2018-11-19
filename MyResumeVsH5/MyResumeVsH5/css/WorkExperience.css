@@ -1,0 +1,41 @@
+﻿
+#ulContent {
+    margin: 0;
+    margin-top:125px;
+    padding-top: 50px;
+    margin-right: 50px;
+    list-style-type: none;
+    height: 100%;
+}
+
+    #ulContent li {
+        float: left;
+        width: 30%;
+        height: 60%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #ulContent div {
+        color: white;
+        font-family: "微软雅黑";
+        font-size: 20px;
+        display:block;
+        text-align:left;
+        padding:10px 10px 10px 20px;
+        margin-left:50px; 
+    }
+
+    #ulContent div:first-child {
+        background-color:grey;
+        height:30px;
+    }
+
+    #ulContent div {
+        background-color:green;
+        height:100%;
+    }
+
+    .clear{ 
+        clear:both;
+    } 

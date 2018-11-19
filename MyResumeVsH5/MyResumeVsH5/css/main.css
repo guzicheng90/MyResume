@@ -1,0 +1,66 @@
+﻿/*设置文档大小*/
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*测试用_begin*/
+@media only screen and (min-width: 1024px) { /*当分辨率width >= 1024px 时使用1.jpg作为背景图片*/
+    .bg {
+        background: url(../images/1.jpg) no-repeat;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 1024px) { /*当分辨率400px < width < 1024px 时使用2.jpg作为背景图片*/
+    .bg {
+        background: url(../images/2.jpg) no-repeat;
+    }
+}
+
+@media only screen and (mmax-width: 400px) { /*当分辨率width =< 400px 时使用3.jpg作为背景图片*/
+    .bg {
+        background: url(../images/3.jpg) no-repeat;
+    }
+}
+/*测试用_end*/
+
+/*设置背景图片撑满全屏*/
+body {
+    background-image: url("../imgs/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*不出现滚动条*/
+body {
+    overflow: hidden;
+}
+
+/*导航栏样式*/
+#nav {
+    margin: 0;
+    padding-top: 50px;
+    margin-right: 50px;
+    list-style-type: none;
+    height: 100px;
+}
+
+    #nav li {
+        float: left;
+        width: 25%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #nav a {
+        color: white;
+        font-family: "微软雅黑";
+        font-size: 20px;
+        display:block;
+        text-align:left;
+        padding:10px 10px 10px 20px;
+        margin-left:50px; 
+        border:1px solid white;
+    }
