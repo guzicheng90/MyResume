@@ -16,9 +16,9 @@
     /*向右箭头*/
     .arrow-right {
         width: 300px;
-        height: 70px;
+        height: 40px;
         background-color: grey;
-        margin: 0 auto;
+        /*margin: 0 auto;*/
     }
 
         .arrow-right::after {
@@ -26,29 +26,32 @@
             position: absolute;
             width: 0px;
             height: 0px;
-            border: 35px solid;
+            border: 20px solid;
             border-color: transparent transparent transparent grey;
         }
 
     .divTitle {
         width: 300px;
-        height: 70px;
+        height: 40px;
+        line-height: 40px;
         display: inline-block;
         float: left;
     }
     .liTitle {
-        height:10%;
+        /*height:10%;*/
+        /*margin-bottom:20px;*/
     }
     .liContent {
+        margin-top:20px;
         height:20%;
     }
 
     .box {
-        width: 200px;
-        height: 50px;
+        width: 25%;
+        height: 75px;
         border: 2px solid white;
         float: left;
-        margin-left: 20px;
+        margin-left: 50px;
     }
 </style>
 <ul id="ulSkill">
