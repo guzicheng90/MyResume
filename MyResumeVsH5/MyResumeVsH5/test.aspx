@@ -7,77 +7,36 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title></title>
     <style>
-        .dialog-border {
-            width: 300px;
-            height: 150px;
-            background: orchid;
-            margin: 50px auto;
-            -webkit-border-radius: 20px;
-            -moz-border-radius: 20px;
-            border-radius: 20px;
-            position: relative;
-            border: 10px solid red;
-            /*此处的边框大小会影响第二个三角形到顶部的偏移量，一般是1.4倍*/
+/*
+ * 怎样让四个没有内边距和边框的元素贴边平分？
+ */
+        .box{
+            width: 1170px;
+            margin: 30px auto 0;
+            border:1px solid #00a09d;
+            font-size: 0;
         }
-
-            .dialog-border::before {
-                content: '';
-                position: absolute;
-                top: 150px;
-                left: 120px;
-                border-left: 30px solid transparent;
-                border-right: 30px solid transparent;
-                border-top: 30px solid red;
-            }
-
-            .dialog-border::after {
-                content: '';
-                position: absolute;
-                top: 136px;
-                left: 120px;
-                border-left: 30px solid transparent;
-                border-right: 30px solid transparent;
-                border-top: 30px solid orchid;
-            }
-
-        .arrow-right {
-            width: 300px;
-            height: 70px;
-            background: grey;
-            margin: 0 auto;
+        .box>div{
+            display: inline-block;
+            font-size: 16px;
+            width:23.5%;
+            height: 100px;
+            background: #ddd;
+            text-align: center;
         }
-
-            /*.arrow-right::before {
-                content: '';
-                position: absolute;
-                top: 136px;
-                left: 120px;
-                width: 0px;
-                height: 0px;
-                border: 30px solid;
-                border-color: transparent transparent transparent red;
-            }*/
-
-            .arrow-right::after {
-                content: '';
-                position: absolute;
-                width: 0px;
-                height: 0px;
-                border: 35px solid;
-                border-color: transparent transparent transparent grey;
-            }
-
-        .trg {
-            width: 0px;
-            height: 0px;
-            border: 30px solid;
-            border-color: transparent transparent transparent red;
+        .box>div:nth-child(n+2){
+            margin-left:2%;
         }
     </style>
 </head>
 <body>
-
-    <div class="arrow-right"><div style="width:300px;display:inline-block;"></div></div>
+    <!--怎样让四个没有内边距和边框的元素贴边平分？-->
+        <div class="box">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </div>
 
 </body>
 </html>
