@@ -1,12 +1,14 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="wuc_Skill.ascx.cs" Inherits="MyResumeVsH5.wuc_Skill" %>
 <style>
-    #ulSkill {
+    #ulSkill
+    {
         list-style-type: none;
         height: 100%;
     }
 
     /*设置字体样式*/
-    .fontStyleTitle {
+    .fontStyleTitle
+    {
         font-family: "微软雅黑";
         font-size: 20px;
         color: white;
@@ -14,14 +16,16 @@
     }
 
     /*向右箭头*/
-    .arrow-right {
+    .arrow-right
+    {
         width: 300px;
         height: 40px;
         background-color: grey;
         /*margin: 0 auto;*/
     }
 
-        .arrow-right::after {
+        .arrow-right::after
+        {
             content: '';
             position: absolute;
             width: 0px;
@@ -30,28 +34,70 @@
             border-color: transparent transparent transparent grey;
         }
 
-    .divTitle {
-        width: 300px;
+    .divTitle
+    {
+        width: 290px;
         height: 40px;
         line-height: 40px;
         display: inline-block;
         float: left;
+        padding-left: 10px;
     }
-    .liTitle {
+
+    .liTitle
+    {
         /*height:10%;*/
         /*margin-bottom:20px;*/
     }
-    .liContent {
-        margin-top:20px;
-        height:20%;
+
+    .liContent
+    {
+        margin-top: 20px;
+        height: 20%;
     }
 
-    .box {
+    .box
+    {
         width: 25%;
         height: 75px;
+        line-height: 75px;
         border: 2px solid white;
         float: left;
         margin-left: 50px;
+        font-family: "微软雅黑";
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .ulScore
+    {
+        width: 100%;
+        height: 20px;
+        margin-top: 10px;
+        padding-left: 0px
+    }
+
+        .ulScore li
+        {
+            float: left;
+            width: 8.2%;
+            height: 20px;
+            list-style: none;
+            background-color: white;
+            text-align: left;
+        }
+            .ulScore li:not(:first-child)
+            {
+                margin-left: 2%;
+            }
+
+    .onePoint
+    {
+        border:solid 1px #FFF;
+        background-color:transparent!important;
+        box-sizing: border-box;/*使边框不占宽度*/
     }
 </style>
 <ul id="ulSkill">
@@ -61,9 +107,45 @@
         </div>
     </li>
     <li class="liContent">
-        <div class="box">C#</div>
-        <div class="box">JavaScript</div>
-        <div class="box">ActionScript</div>
+        <div class="box">C#
+        <ul class="ulScore">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li class="onePoint"></li>
+        </ul></div>
+        <div class="box">JavaScript
+        <ul class="ulScore">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li class="onePoint"></li>
+            <li class="onePoint"></li>
+        </ul></div>
+        <div class="box">ActionScript
+        <ul class="ulScore">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul></div>
     </li>
     <li class="liTitle">
         <div class="arrow-right">
@@ -71,13 +153,85 @@
         </div>
     </li>
     <li class="liContent">
-        <div class="box">Bootstrap</div>
-        <div class="box">JQuery</div>
-        <div class="box">VUE</div>
+        <div class="box">Bootstrap
+        <ul class="ulScore">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul></div>
+        <div class="box">JQuery
+        <ul class="ulScore">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul></div>
+        <div class="box">VUE
+        <ul class="ulScore">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul></div>
     </li>
     <li class="liContent">
-        <div class="box">Dojo</div>
-        <div class="box">ECharts</div>
-        <div class="box">CSS</div>
+        <div class="box">Dojo
+        <ul class="ulScore">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul></div>
+        <div class="box">ECharts
+        <ul class="ulScore">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul></div>
+        <div class="box">CSS
+        <ul class="ulScore">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul></div>
     </li>
 </ul>
