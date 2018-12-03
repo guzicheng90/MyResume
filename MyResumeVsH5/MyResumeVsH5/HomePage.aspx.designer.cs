@@ -38,5 +38,14 @@ namespace MyResumeVsH5 {
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
         protected global::MyResumeVsH5.wuc_Skill wuc_Skill;
+        
+        /// <summary>
+        /// wuc_Works 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::MyResumeVsH5.wuc_Works wuc_Works;
     }
 }

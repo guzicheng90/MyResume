@@ -3,16 +3,14 @@
 <%@ Register Src="~/wuc_AboutMe.ascx" TagPrefix="uc1" TagName="wuc_AboutMe" %>
 <%@ Register Src="~/wuc_WorkExperience.ascx" TagPrefix="uc1" TagName="wuc_WorkExperience" %>
 <%@ Register Src="~/wuc_Skill.ascx" TagPrefix="uc1" TagName="wuc_Skill" %>
-
-
-
+<%@ Register Src="~/wuc_Works.ascx" TagPrefix="uc1" TagName="wuc_Works" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="css/HomePage.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <!--封面-->
-    <div id="divCover" class="fontStyle" style="display:none;">您好！<br />
+    <div id="divCover" class="fontStyle">您好！<br />
         我是顾自诚，这是我的个人简历 </div>
 
     <!--关于我-->
@@ -26,7 +24,12 @@
     </div>
     
     <!--技能-->
-    <div id="divSkill">
+    <div id="divSkill" style="display:none;">
         <uc1:wuc_Skill runat="server" id="wuc_Skill" />
+    </div>
+
+    <!--作品集-->
+    <div id="divWorks" style="display:none;">
+        <uc1:wuc_Works runat="server" ID="wuc_Works" />
     </div>
 </asp:Content>
