@@ -8,18 +8,22 @@
     <title></title>
     <!--样式文件引用处-->
     <link href="css/main.css" rel="stylesheet" />
+    <!--js文件引用处-->
+    <script src="js/home.js"></script>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <ul id="nav">
-        <li><a>关于我<br />
+        <li><a id="cover">首页<br />
+            HOME</a></li>
+        <li><a id="aboutme">关于我<br />
             ABOUT ME</a></li>
-        <li><a>工作经历<br />
+        <li><a id="workexp">工作经历<br />
             WORK EXPERIENCE</a></li>
-        <li><a>技能<br />
+        <li><a id="skills">技能<br />
             SKILLS</a></li>
-        <li><a>作品<br />
+        <li><a id="works">作品<br />
             WORKS</a></li>
     </ul>
     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
