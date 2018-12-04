@@ -4,6 +4,7 @@
     {
         list-style-type: none;
         height: 100%;
+        -webkit-padding-start: 0px;
     }
 
     /*设置字体样式*/
@@ -48,27 +49,33 @@
     {
         /*height:10%;*/
         /*margin-bottom:20px;*/
+        margin-left: 8%;
     }
 
     .liContent
     {
         margin-top: 20px;
         height: 20%;
+        margin-left: 8%;
+        margin-right: 8%;
     }
 
     .box
     {
-        width: 25%;
+        width: 30%;
         height: 75px;
         line-height: 75px;
-        border: 2px solid white;
+        border: 1px solid white;
         float: left;
-        margin-left: 50px;
         font-family: "微软雅黑";
         font-size: 16px;
         color: white;
         text-align: center;
         vertical-align: middle;
+        box-sizing: border-box;
+    }
+    .box:not(:first-child) {
+        margin-left: 5%;
     }
 
     .ulScore
@@ -130,7 +137,7 @@
             <li></li>
             <li></li>
             <li></li>
-            <li class="onePoint"></li>
+            <li></li>
             <li class="onePoint"></li>
         </ul></div>
         <div class="box">ActionScript
@@ -143,8 +150,8 @@
             <li></li>
             <li></li>
             <li></li>
-            <li></li>
-            <li></li>
+            <li class="onePoint"></li>
+            <li class="onePoint"></li>
         </ul></div>
     </li>
     <li class="liTitle">
@@ -164,7 +171,7 @@
             <li></li>
             <li></li>
             <li></li>
-            <li></li>
+            <li class="onePoint"></li>
         </ul></div>
         <div class="box">JQuery
         <ul class="ulScore">
@@ -176,8 +183,8 @@
             <li></li>
             <li></li>
             <li></li>
-            <li></li>
-            <li></li>
+            <li class="onePoint"></li>
+            <li class="onePoint"></li>
         </ul></div>
         <div class="box">VUE
         <ul class="ulScore">
@@ -188,9 +195,9 @@
             <li></li>
             <li></li>
             <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li class="onePoint"></li>
+            <li class="onePoint"></li>
+            <li class="onePoint"></li>
         </ul></div>
     </li>
     <li class="liContent">
@@ -202,10 +209,10 @@
             <li></li>
             <li></li>
             <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li class="onePoint"></li>
+            <li class="onePoint"></li>
+            <li class="onePoint"></li>
+            <li class="onePoint"></li>
         </ul></div>
         <div class="box">ECharts
         <ul class="ulScore">
@@ -217,8 +224,8 @@
             <li></li>
             <li></li>
             <li></li>
-            <li></li>
-            <li></li>
+            <li class="onePoint"></li>
+            <li class="onePoint"></li>
         </ul></div>
         <div class="box">CSS
         <ul class="ulScore">
@@ -229,9 +236,9 @@
             <li></li>
             <li></li>
             <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li class="onePoint"></li>
+            <li class="onePoint"></li>
+            <li class="onePoint"></li>
         </ul></div>
     </li>
 </ul>
