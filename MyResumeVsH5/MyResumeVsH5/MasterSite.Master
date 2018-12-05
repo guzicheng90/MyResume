@@ -15,8 +15,6 @@
 </head>
 <body>
     <ul id="nav">
-        <li><a id="cover">首页<br />
-            HOME</a></li>
         <li><a id="aboutme">关于我<br />
             ABOUT ME</a></li>
         <li><a id="workexp">工作经历<br />

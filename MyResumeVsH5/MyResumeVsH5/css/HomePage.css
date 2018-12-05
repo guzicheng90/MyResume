@@ -8,20 +8,38 @@
 #divAboutMe {
     margin:0;
     padding:0;
-    width:100%;
-    height:100%;
+    width:84%;
+    height:80%;
+    margin-left:8%;
+    margin-right:8%;
+    margin-top:16px;
 }
 #divWorkExperience {
     margin:0;
     padding:0;
-    width:100%;
-    height:100%;
+    width:84%;
+    height:80%;
+    margin-left:8%;
+    margin-right:8%;
+    margin-top:16px;
 }
 #divSkill {
     margin:0;
     padding:0;
-    width:100%;
-    height:100%;
+    width:84%;
+    height:80%;
+    margin-left:8%;
+    margin-right:8%;
+    margin-top:16px;
+}
+#divWorks {
+    margin:0;
+    padding:0;
+    width:84%;
+    height:80%;
+    margin-left:8%;
+    margin-right:8%;
+    margin-top:16px;
 }
 
 /*设置字体样式*/
