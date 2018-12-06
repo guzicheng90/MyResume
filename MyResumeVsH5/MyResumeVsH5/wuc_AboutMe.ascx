@@ -10,7 +10,6 @@
         <li><p>408141471</p></li><li><p>13761599020</p></li><li><p>408141471@qq.com</p></li>
     </ul>
 </div>
-<div id="divVRule"></div>
 <div id="divEvaluation">
     <h1>自我评价</h1>
     <p>
