@@ -19,19 +19,22 @@
         color: white;
         font-family: "微软雅黑";
         font-size: 20px;
-        display:block;
-        text-align:left;
-        padding:10px 10px 10px 20px;
+        display: block;
+        text-align: left;
+        padding: 10px 10px 10px 20px;
+        margin-left: 50px; 
+        text-overflow: ellipsis;    
+        overflow: hidden;
+    }    
+
+    #ulContent div {
+        background-color:green;
+        height:100%;
     }
 
     #ulContent div:first-child {
         background-color:grey;
         height:30px;
-    }
-
-    #ulContent div {
-        background-color:green;
-        height:100%;
     }
 
     .clear{ 

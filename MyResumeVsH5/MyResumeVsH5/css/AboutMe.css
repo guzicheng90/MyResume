@@ -32,6 +32,32 @@
     list-style-type: none;
     -webkit-padding-start:0px;
 }
+    #ulResume li
+    {
+        height:50px;
+        line-height:50px;
+    }
+        #ulResume li p
+        {
+            float:left;
+            color: white;
+        }
+        #ulResume li p:first-child
+        {
+            float:left;
+            color: white;
+            text-align: justify;
+            text-align-last: justify;
+            width:30%;
+        }
+        #ulResume li p:nth-child(2)
+        {
+            float:left;
+            color: white;
+            text-align: center;
+            width:5%;
+        }
+
 h1 {
     font-family:"微软雅黑";
     /*font-size:40px;*/

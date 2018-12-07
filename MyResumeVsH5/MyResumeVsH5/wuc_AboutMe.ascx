@@ -3,7 +3,7 @@
 <div id="divResume">
     <h1>个人简历</h1>
     <ul id="ulResume">
-        <li><p>姓名 | 顾自诚</p></li><li><p>学历 | 大学本科</p></li><li><p>政治面貌 | 中共党员</p></li><li><p>毕业院校 | 上海师范大学</p></li><li><p>主修专业 | 地理信息系统</p></li><li><p>目前职业 | 软件开发工程师</p></li><li><p>求职意向 | 前端开发工程师</p></li>
+        <li><p>姓名</p><p>|</p><p>顾自诚</p></li><li><p>学历</p><p>|</p><p>大学本科</p></li><li><p>政治面貌</p><p>|</p><p>中共党员</p></li><li><p>毕业院校</p><p>|</p><p>上海师范大学</p></li><li><p>主修专业</p><p>|</p><p>地理信息系统</p></li><li><p>目前职业</p><p>|</p><p>软件开发工程师</p></li><li><p>求职意向</p><p>|</p><p>前端开发工程师</p></li>
     </ul>
     <div id="divHRule"></div>
     <ul id="ulContact">
