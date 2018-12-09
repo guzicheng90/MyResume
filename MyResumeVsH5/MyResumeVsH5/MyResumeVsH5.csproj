@@ -63,6 +63,9 @@
     <Content Include="css\Skill.css" />
     <Content Include="css\WorkExperience.css" />
     <Content Include="css\Works.css" />
+    <Content Include="imgs\Email.png" />
+    <Content Include="imgs\Mobile.png" />
+    <Content Include="imgs\QQ.png" />
     <Content Include="js\home.js" />
     <Content Include="HomePage.aspx" />
     <Content Include="imgs\background.png" />
