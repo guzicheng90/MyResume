@@ -42,9 +42,9 @@ body {
 #nav {
     margin: 0;
     padding-top: 50px;
-    margin-right: 50px;
+    margin-right: 40px;
     list-style-type: none;
-    height: 20%;
+    height: 10%;
     min-height: 100px;
 }
 
@@ -63,9 +63,11 @@ body {
         display:block;
         text-align:left;
         padding:10px 10px 10px 20px;
-        margin-left:50px; 
         border:1px solid white;
         cursor:pointer;
+    }
+    #nav li:not(:first-child) a {        
+        margin-left:50px; 
     }
         #nav a:hover {
             border:1px solid #00B0F0;

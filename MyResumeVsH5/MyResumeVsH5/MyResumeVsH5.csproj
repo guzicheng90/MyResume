@@ -66,6 +66,10 @@
     <Content Include="imgs\Email.png" />
     <Content Include="imgs\Mobile.png" />
     <Content Include="imgs\QQ.png" />
+    <Content Include="imgs\work1.png" />
+    <Content Include="imgs\work2.png" />
+    <Content Include="imgs\work3.png" />
+    <Content Include="imgs\work4.png" />
     <Content Include="js\home.js" />
     <Content Include="HomePage.aspx" />
     <Content Include="imgs\background.png" />
